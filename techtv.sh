@@ -3,7 +3,6 @@
 DLORIGINALS=true
 DLBASIC=true
 TESTMODE=false
-#RSSFILE=
 
 while getopts ":tob" opt; do
   case $opt in
