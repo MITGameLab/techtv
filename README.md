@@ -1,6 +1,6 @@
 # TechTV Downloader Bash script
 
-Download all videos from an MIT TechTV collection.
+Download all videos from an [MIT TechTV collection](http://techtv.mit.edu/collections).
 
 **This has only been tested on Mac OS X Yosemite.**
 
@@ -52,7 +52,7 @@ Usage:
           -b    Only attempt to download stream-quality video MP4 files missing their original source files.
 
 
-Thanks to TechTV for many years of wonderful service!
+Thanks to [MIT TechTV](http://techtv.mit.edu/) for many years of wonderful service!
 ------
 
 **techtv.sh** © 2017 Philip Tan. Released under the [MIT License].<br>
