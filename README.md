@@ -36,8 +36,8 @@ Installation
 3. Open Terminal on Mac OS X. Use the "cd" command to navigate to your new folder.
 4. Type the following in Terminal. Substitute "videos.rss" with the name of the RSS file you just downloaded.
 
-    $ chmod +x techtv.sh
-    $ ./techtv.sh videos.rss
+        $ chmod +x techtv.sh
+        $ ./techtv.sh videos.rss
 
 5. The script will visit each page in the collection and will display the name given to each video as it downloads.
 
