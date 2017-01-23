@@ -1,8 +1,8 @@
 # TechTV Downloader Bash script
 
-Download all videos from a TechTV collection.
+Download all videos from an MIT TechTV collection.
 
-This has only been tested on Mac OS X Yosemite.
+**This has only been tested on Mac OS X Yosemite.**
 
 Download all files listed in videos.rss. You can download a collection's videos.rss file by right-clicking the "RSS" link from any TechTV collection and selecting "Download Linked File".
 
@@ -57,6 +57,8 @@ Thanks to TechTV for many years of wonderful service!
 
 **techtv.sh** © 2017 Philip Tan. Released under the [MIT License].<br>
 Authored and maintained by Philip Tan with help from [contributors].
+
+Readme format borrowed from [hicat](https://github.com/rstacruz/hicat/blob/master/Readme.md) by [@rstacruz](https://github.com/rstacruz).
 
 > [gamelab.mit.edu](http://gamelab.mit.edu/) &nbsp;&middot;&nbsp;
 > GitHub [@mitgamelab](https://github.com/mitgamelab) &nbsp;&middot;&nbsp;
