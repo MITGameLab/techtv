@@ -4,19 +4,19 @@ Download all videos from an MIT TechTV collection.
 
 **This has only been tested on Mac OS X Yosemite.**
 
-Download all files listed in videos.rss. You can download a collection's videos.rss file by right-clicking the "RSS" link from any TechTV collection and selecting "Download Linked File".
+Find a collection's videos.rss file by right-clicking the "RSS" link from any TechTV collection and selecting "Download Linked File". Then download every video from the collection by calling this script from the command-line:
 
     $ ./techtv.sh videos.rss
     
-Test mode. Display how files would be downloaded and named but don't download any video.
+The -t flag runs the script in Test Mode, displaying how files would be downloaded and named without downloading any video. This will test whether the script is properly parsing your RSS file and is able to find each video's corresponding web page.
 
     $ ./techtv.sh -t videos.rss
     
-Only attempt to download original source files.
+Some original files were lost in a TechTV server incident a few years back. This script normally downloads transcoded MP4 streaming files if the originals cannot be found. If you only want to download original source files, use the -o flag.
 
     $ ./techtv.sh -o videos.rss
     
-Only attempt to download files that are missing originals but were transcoded to stream.
+If you only want to download videos that are missing their original files but were transcoded to stream, use the -b flag.
 
     $ ./techtv.sh -b videos.rss
 
