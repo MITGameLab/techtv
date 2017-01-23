@@ -6,6 +6,7 @@ Download all videos from an [MIT TechTV collection](http://techtv.mit.edu/collec
 
 Find a collection's videos.rss file by right-clicking the "RSS" link from any TechTV collection and selecting "Download Linked File". Then download every video from the collection by calling this script from the command-line:
 
+    $ chmod +x techtv.sh
     $ ./techtv.sh videos.rss
     
 The -t flag runs the script in Test Mode, displaying how files would be downloaded and named without downloading any video. This will test whether the script is properly parsing your RSS file and is able to find each video's corresponding web page.
@@ -30,11 +31,12 @@ MIT Game Lab
 Installation
 ------------
 
-1. Create a new folder to hold all the videos you are about to download.
-2. Download techtv.sh and put it in the new folder.
-3. Use a browser to visit the TechTV collection you wish to download. Find the "RSS" link and right-click on it. Download the RSS file (usually "videos.rss") to your new folder.
-3. Open Terminal on Mac OS X. Use the "cd" command to navigate to your new folder.
-4. Type the following in Terminal. Substitute "videos.rss" with the name of the RSS file you just downloaded.
+1. Clone or download this repository to your computer with a Bash shell. (Mac OS X comes with Bash set as the default shell in its Terminal app.)
+2. Create a new folder to hold all the videos you are about to download.
+3. Move techtv.sh from your copy of this repository and put it in the new folder.
+4. Use a browser to visit the TechTV collection you wish to download. Find the "RSS" link and right-click on it. Download the RSS file (usually "videos.rss") to your new folder.
+5. Open Terminal on Mac OS X. Use the "cd" command to navigate to your new folder.
+6. Type the following in Terminal to make this script executable and start downloading videos. (Substitute "videos.rss" with the name of the RSS file you just downloaded.)
 
         $ chmod +x techtv.sh
         $ ./techtv.sh videos.rss
